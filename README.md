@@ -1,1 +1,3 @@
-# react-1-gallery
+# Solo Leveling Image Gallery
+
+Image gallery made in react.
