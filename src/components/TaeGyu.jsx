@@ -1,4 +1,4 @@
-import TaeGyuImg from "../assets/tae_gyu.png";
+import TaeGyuImg from "../assets/tae-gyu.png";
 
 export default function TaeGyu() {
   return (
