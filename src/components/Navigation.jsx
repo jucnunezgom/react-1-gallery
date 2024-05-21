@@ -7,50 +7,50 @@ import YooJinhoImg from "../assets/yoo_jinho.png";
 
 export default function Navigation() {
   return (
-    <div>
-      <Link to="/sung-jinwoo">
+    <div className="flex flex-row bg-black gap-7 text-slate-50 pb-16">
+      <Link to="/sung-jinwoo" className="w-24">
         <figure>
           <img
             src={SungJinwooImg}
             alt="Image of Sung Jinwoo, a character from the Solo Leveling series."
           />
-          <figcaption>Sung Jinwoo</figcaption>
+          <figcaption className="text-center">Sung Jinwoo</figcaption>
         </figure>
       </Link>
-      <Link to="/cha-hae-in">
+      <Link to="/cha-hae-in" className="w-24">
         <figure>
           <img
             src={ChaHaeInImg}
             alt="Image of Cha Hae-In, a character from the Solo Leveling series."
           />
-          <figcaption>Cha Hae-In</figcaption>
+          <figcaption className="text-center">Cha Hae-In</figcaption>
         </figure>
       </Link>
-      <Link to="/song-chiyul">
+      <Link to="/song-chiyul" className="w-24">
         <figure>
           <img
             src={SongChiyulImg}
             alt="Image of Song Chiyul, a character from the Solo Leveling series."
           />
-          <figcaption>Song Chiyul</figcaption>
+          <figcaption className="text-center">Song Chiyul</figcaption>
         </figure>
       </Link>
-      <Link to="/tae-gyu">
+      <Link to="/tae-gyu" className="w-24">
         <figure>
           <img
             src={TaeGyuImg}
             alt="Image of Tae Gyu, a character from the Solo Leveling series."
           />
-          <figcaption>Tae Gyu</figcaption>
+          <figcaption className="text-center">Tae Gyu</figcaption>
         </figure>
       </Link>
-      <Link to="/yoo-jinho">
+      <Link to="/yoo-jinho" className="w-24">
         <figure>
           <img
             src={YooJinhoImg}
             alt="Image of Yoo Jinho, a character from the Solo Leveling series."
           />
-          <figcaption>Yoo Jinho</figcaption>
+          <figcaption className="text-center">Yoo Jinho</figcaption>
         </figure>
       </Link>
     </div>

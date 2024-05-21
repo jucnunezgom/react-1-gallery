@@ -9,7 +9,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col justify-center items-center py-12">
       <Router>
         <Navigation />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/yoo-jinho" element={<YooJinho />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
